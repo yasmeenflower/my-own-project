@@ -1,0 +1,53 @@
+#include <iostream>
+#include<conio.h>
+using namespace std; //count x number
+int main ()
+
+{int counter=0,
+      numb;
+
+      cout<<"enter the number";
+	  cin>>numb;
+
+
+
+  while (counter<= 20)
+  {
+	  cout<<numb<<"*"<<counter<<"="<<numb*counter<<endl;
+
+	  counter++;
+  
+  }
+
+
+  getch();
+
+  return 0;
+
+
+
+
+#include <iostream>
+#include<conio.h>
+using namespace std; //counter x 3
+int main ()
+
+{int counter=0;
+
+
+  while (counter<= 20)
+  {
+	  cout<<"3*"<<counter<<"="<<3*counter<<endl;
+
+	  counter++;
+  
+  }
+
+
+  getch();
+
+  return 0;
+
+}
+
+
