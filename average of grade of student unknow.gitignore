@@ -1,0 +1,45 @@
+#include <iostream>
+#include<conio.h>
+using namespace std;
+int main ()
+
+{int   grade,                //average of grade of student unknow
+
+       student=0;
+
+        float average, total=0;
+	  
+	  
+           cout<<"enter the grade :";
+
+	   cin >>grade;
+
+
+   while (grade!= -1)
+       {
+	       
+
+            total+=grade;
+		   
+	    student++;
+
+	    cout<<"enter the grade :";
+
+	    cin >>grade;
+       }
+
+	   average = total/student;
+
+
+  cout<<"total is"<<total <<endl<<"average is"<<average<<endl;
+
+  
+
+  getch();
+
+  return 0;
+
+}
+
+
+
